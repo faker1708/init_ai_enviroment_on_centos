@@ -117,3 +117,75 @@ sudo rpm cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
 要先装gcc tmd
 
 
+
+
+报错了
+
+
+Unable to find the kernel source tree for the currently running kernel.  Please make sure you have installed
+         the kernel source files for your kernel and that they are properly configured; on Red Hat Linux systems, for
+         example, be sure you have the 'kernel-source' or 'kernel-devel' RPM installed.  If you know the correct
+         kernel source files are installed, you may specify the kernel source path with the '--kernel-source-path'
+         command line option.
+
+
+
+无法找到当前正在运行的内核的内核源树。 请确保您已安装
+内核的内核源文件，并正确配置它们； 在红帽Linux系统上，用于
+例如，请确保已安装了“内核源”或“内核直角” rpm。 如果您知道正确的
+内核源文件已安装，您可以使用“ -Kernel-source-path”指定内核源路径'
+命令行选项。
+
+
+是不是
+sudo reboot 这个命令有问题啊.
+下次不用了.
+
+不是,好像是显卡把屏幕给熄 了...淦.
+
+不对,屏幕熄 了凭什么ssh连不上.
+
+
+sudo sh NVIDIA-Linux-x86_64-525.89.02.run --kernel-source-path
+
+
+
+sudo sh NVIDIA-Linux-x86_64-525.89.02.run --kernel-source-path 3.10.0-1160.83.1.el7.x86_64.debug
+
+
+
+http://mirror.centos.org/centos/7/os/x86_64/Packages/kernel-devel-3.10.0-1160.83.1.el7.x86_64.rpm
+
+http://mirror.centos.org/centos/7/os/x86_64/Packages/kernel-devel-3.10.0-1160.el7.x86_64.rpm
+
+
+http://vault.centos.org/7.9.2009/os/Source/SPackages/kernel-3.10.0-1160.el7.src.rpm
+
+
+
+
+https://blog.csdn.net/A15216110998/article/details/113402172
+
+要命了.装个cuda要命了
+
+
+优先安装cuda
+
+卡在144/179
+
+
+
+cuda、cuda-11.7
+
+export PATH=/usr/local/cuda-11.7/bin:$PATH
+export LD_LIBRARY_PATH=/usr/local/cuda-11.7/lib64:$LD_LIBRARY_PATH
+
+
+sudo vi /etc/profile
+
+
+
+
+终于安装好cuda了.真的是要命了.
+
+
