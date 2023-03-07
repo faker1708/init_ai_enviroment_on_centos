@@ -1,0 +1,20 @@
+
+20:09 2022/11/25
+历史告诉我们，建议不要安装 3.6以上的版本。
+如果没有特殊需求，py3.6就够了。
+用yum的方法。
+注意千万不要删除py2
+
+也不要把python指向python3
+要让python 继续保持指向py2
+
+
+
+指令
+sudo yum install python36 -y
+
+
+检查版本
+python3 --version
+pip3 --version
+

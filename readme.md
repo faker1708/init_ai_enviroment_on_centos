@@ -101,3 +101,19 @@ pip3 install torch torchvision torchaudio
 参考
 
 https://blog.csdn.net/qq_36287702/article/details/122435148
+
+
+
+
+卸载掉
+那个驱动 
+
+
+然后安装 n官方驱动 与 cuda
+
+sudo rpm cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
+
+
+要先装gcc tmd
+
+
