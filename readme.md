@@ -188,4 +188,85 @@ sudo vi /etc/profile
 
 终于安装好cuda了.真的是要命了.
 
+3.10.0-1160.83.1.el7.x86_64
+
+
+
+./ --kernel-source-path=/usr/src/kernels/3.10.0-1160.83.1.el7.x86_64
+
+
+sudo ./NVIDIA-Linux-x86_64-525.89.02.run --kernel-source-path=/usr/src/kernels/3.10.0-1160.83.1.el7.x86_64
+
+
+
+
+ The NVIDIA proprietary driver is already installed in this system. It was
+ installed through a 3d party repository.
+
+ Please refer to the following page for additional information and to install
+ optional driver components:
+
+ http://negativo17.org/nvidia-driver/
+
+
+
+nvcc 装好了.驱动还没装好.
+
+最关键的,还是一个靠谱的教程...
+
+而教程难找的原因,还是因为同样的需求的人少,或者说我确实不应该使用centos....而应该用ubuntu....
+
+算了.我偏要用centos
+
+
+
+安装驱动时
+
+一直选择yes直到安装完成就行
+
+
+
+ ERROR: Failed to run `/sbin/dkms install --no-depmod -m nvidia -v 525.89.02 -k 3.10.0-1160.83.1.el7.x86_64`:
+         nvidia.ko.xz:
+         Running module version sanity check.
+         Module version 525.89.02 for nvidia.ko.xz
+         exactly matches what is already found in kernel 3.10.0-1160.83.1.el7.x86_64.
+         DKMS will not replace this module.
+         You may override by specifying --force.
+
+         nvidia-uvm.ko.xz:
+         Running module version sanity check.
+         Module version 525.89.02 for nvidia-uvm.ko.xz
+         exactly matches what is already found in kernel 3.10.0-1160.83.1.el7.x86_64.
+         DKMS will not replace this module.
+         You may override by specifying --force.
+
+         nvidia-modeset.ko.xz:
+         Running module version sanity check.
+         Module version 525.89.02 for nvidia-modeset.ko.xz
+         exactly matches what is already found in kernel 3.10.0-1160.83.1.el7.x86_64.
+         DKMS will not replace this module.
+         You may override by specifying --force.
+
+         nvidia-drm.ko.xz:
+         Running module version sanity check.
+         Module version 525.89.02 for nvidia-drm.ko.xz
+         exactly matches what is already found in kernel 3.10.0-1160.83.1.el7.x86_64.
+         DKMS will not replace this module.
+         You may override by specifying --force.
+
+         nvidia-peermem.ko.xz:
+         Running module version sanity check.
+         Module version 525.89.02 for nvidia-peermem.ko.xz
+         exactly matches what is already found in kernel 3.10.0-1160.83.1.el7.x86_64.
+         DKMS will not replace this module.
+         You may override by specifying --force.
+         Error! Installation aborted.
+
+
+
+我c,装好了.装了tmd 三个小时.
+
+真的值得吗???
+
 
