@@ -97,6 +97,8 @@ pip3 install torch torchvision torchaudio
 
 
 在这里下载pytorch 安装包
+https://download.pytorch.org/whl/torch/
+
 
 参考
 
@@ -269,4 +271,62 @@ nvcc 装好了.驱动还没装好.
 
 真的值得吗???
 
+https://blog.csdn.net/A15216110998/article/details/113402172
 
+
+安装 torch
+
+pip install 
+
+
+cp33 means CPython 3.3
+
+
+
+
+我们选centos 真的是个错误,就应该用 ubuntu 的.
+
+妈的,已经装一个晚上的.全是些无聊至极的弱智问题.烦死了.
+
+
+我是真的蠢啊.人家用unbuntu 只要装好系统 一切都好了.我非要用cetnos .搞了一个晚上四个小时,还是没搞好.
+
+
+现在的问题是,如果安装一个能用pip的python 311??
+
+
+我好像是已经安装好了openssl
+
+
+
+先让一步.我的3.6是能用ssl的.
+
+
+
+
+真的要气死了.smb又不能用了.
+
+
+wget https://download.pytorch.org/whl/cu113/torch-1.10.2%2Bcu113-cp36-cp36m-linux_x86_64.whl
+
+
+https://blog.csdn.net/qq_39715000/article/details/125009276
+
+
+
+修复pip3 到 python3.6
+
+cd /us
+
+
+算了这样
+
+python3.6 -m pip
+
+
+sudo python3.6 -m pip install torch-1.10.2+cu113-cp36-cp36m-linux_x86_64.whl
+
+python3.6 -m pip install torch-1.10.2+cu113-cp36-cp36m-linux_x86_64.whl
+
+
+我现在是

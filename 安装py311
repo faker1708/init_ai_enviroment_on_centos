@@ -1,0 +1,53 @@
+tar -xzf 
+
+下载
+https://www.python.org/ftp/python/3.11.0/Python-3.11.0.tgz
+
+https://blog.csdn.net/macanv/article/details/122189236
+
+
+
+/home/dva/exe/python/3_11_0
+
+
+# prefix后面，修改对应的安装目录
+./configure --with-ssl --prefix=/home/dva/exe/python/3_11_0
+
+make -j8
+
+make install
+
+vi ~/.bashrc
+
+export PATH="/home/macan/python3.7/bin:$PATH"
+export PATH="/home/dva/exe/python/3_11_0/bin:$PATH"
+
+
+软链
+
+ln -s /home/dva/exe/python/3_11_0/bin/python3 /usr/bin/python3
+
+
+
+
+
+算了吧.
+
+尽量不要升级ssl
+不然有的软件用不了(比如npm....react那个包)
+
+算了就用py36吧.
+
+python3 -m pip -V
+
+python3 -m pip install 
+
+
+https://www.cnblogs.com/presleyren/p/13931911.html
+
+
+要命了妈的.
+
+sudo make install
+
+
