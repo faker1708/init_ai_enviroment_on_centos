@@ -1,0 +1,35 @@
+https://blog.csdn.net/A15216110998/article/details/113402172
+
+
+先装cuda
+
+下载
+https://developer.download.nvidia.com/compute/cuda/11.7.0/local_installers/cuda-repo-rhel7-11-7-local-11.7.0_515.43.04-1.x86_64.rpm
+
+检查 
+nvcc -V
+
+
+
+再装 驱动 
+
+去网页手动下载
+
+再安装 py3
+
+如果只安装了py3.6
+
+
+就下载这个 
+
+
+https://download.pytorch.org/whl/cu113/torch-1.10.2%2Bcu113-cp36-cp36m-linux_x86_64.whl
+
+
+sudo python3.6 -m pip install torch...whl
+
+检查
+
+python3.6
+import torch
+print(torch.cuda.is_available())
