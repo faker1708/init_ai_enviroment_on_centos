@@ -1,0 +1,17 @@
+https://juejin.cn/post/7071910670056292389
+
+没必要升级，不折腾
+
+
+
+git 设置名字
+git 设置邮箱
+
+
+上传直接用vs code 比较方便，不需要命令行了。
+
+
+这两个要用命令行补一下。
+
+git config --global user.name "faker1708"
+git config --global user.email "faker1708@gmail.com"
