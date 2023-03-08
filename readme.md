@@ -330,3 +330,44 @@ python3.6 -m pip install torch-1.10.2+cu113-cp36-cp36m-linux_x86_64.whl
 
 
 我现在是
+
+
+
+
+现在基本的torch 已经安装 好了
+
+
+现在的问题是
+jupyter怎么开启到局域网??
+
+    https://blog.csdn.net/qcyfred/article/details/82767965
+smb 又挂了
+
+不必要:
+    vscode怎么调用远程内核 ?
+
+
+
+没必要装connda 但真的太费劲 了 centos
+早知道直接装unbuntu了
+
+
+哦 torch vision 还没装..
+
+我安装的torch版本
+torch-1.10.2+cu113-cp36-cp36m-linux_x86_64.whl
+
+ 1553 MiB / 
+11264 MiB |
+
+
+
+
+1553
+1927
+
+1
+10
+
+374
+

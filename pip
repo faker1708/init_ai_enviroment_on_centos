@@ -7,7 +7,7 @@ py -m pip
 
 连起来就昌
 
-python3.6 -m pip installl
+python3.6 -m pip install
 
 
 麻烦一点吧.
