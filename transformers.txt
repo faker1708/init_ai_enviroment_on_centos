@@ -1,0 +1,16 @@
+python3.6 -m pip install transformers
+
+py3 -m pip install datasets
+
+
+Look at the left side-bar on PyPi package page for evaluate. Near the bottom is the "Programming Language" section. It lists availability for Python version 3.7 to 3.10.
+
+You will need to create a new environment with one of those versions of Python.
+
+
+不能用py3。6
+
+
+烦死了。centos　源码安装巨麻烦
+pip需要ssl永远解决不了。操你妈。
+

@@ -1,0 +1,13 @@
+
+
+sudo vi ~/.pip/pip.conf 
+
+
+
+临时
+
+-i https://pypi.tuna.tsinghua.edu.cn/simple
+
+
+python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple xxxx
+

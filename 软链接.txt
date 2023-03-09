@@ -1,0 +1,14 @@
+
+出现在/usr/bin
+下的软链接可视为全局命令
+
+
+cd /usr/bin
+sudo ln -s python3.6 py3
+
+
+cd /usr/bin
+sudo ln -s python3.6 python3
+
+
+ll |grep py

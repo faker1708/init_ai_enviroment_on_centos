@@ -1,0 +1,14 @@
+
+
+
+conda config --set auto_activate_base false
+
+
+
+conda config --set auto_activate_base true
+
+
+
+conda activate base
+
+conda deactivate

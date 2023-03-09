@@ -1,0 +1,21 @@
+
+
+byd conda
+现在就算不用它，每次连ssh都要等10秒。什么sb啊。
+
+sudo vi /etc/ssh/sshd_config
+/etc/init.d/ssh restart
+
+
+快了一点了。大概2秒。
+
+
+
+
+
+14:48 2023/3/9
+这个 问题并没有缓解 ，我还是觉得是conda的锅，妈的，装之前 就觉得它sb，现在想想是真傻逼啊。
+
+也许当时装mini会好点。。。
+
+

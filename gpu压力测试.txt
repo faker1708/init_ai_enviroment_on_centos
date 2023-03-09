@@ -1,0 +1,25 @@
+首先要安装好cuda和驱动
+nvcc
+nvidia-smi
+
+
+
+https://blog.csdn.net/weixin_40109345/article/details/106040332
+
+
+git clone https://github.com/wilicc/gpu-burn.git
+
+cd xxx
+make
+
+./xxx 120
+程序名后面可加时间，单位秒
+
+然后观察温度与风扇转速。
+
+不知道要怎么看显存温度。算了，一般是比核心高20度。
+
+显存便宜，2G只要70元，烧了损失也不大。
+核心贵。
+
+

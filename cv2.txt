@@ -1,0 +1,8 @@
+https://www.jianshu.com/p/33bbaadd604a
+
+
+python3 -m pip install --upgrade pip
+
+python3 -m pip install -i https://pypi.tuna.tsinghua.edu.cn/simple opencv-python
+
+
